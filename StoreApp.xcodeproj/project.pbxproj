@@ -12,6 +12,8 @@
 		530C087429A745630066CA98 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C087329A745630066CA98 /* URL+Extensions.swift */; };
 		530C087629A74C320066CA98 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C087529A74C320066CA98 /* Product.swift */; };
 		530C087829A74E0C0066CA98 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C087729A74E0C0066CA98 /* ProductsTableViewController.swift */; };
+		530C087D29AA0D960066CA98 /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C087C29AA0D960066CA98 /* ProductCellView.swift */; };
+		530C087F29AA0EF10066CA98 /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C087E29AA0EF10066CA98 /* Locale+Extensions.swift */; };
 		8DC0827B29353EC200ABF0C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0827A29353EC200ABF0C5 /* AppDelegate.swift */; };
 		8DC0827D29353EC200ABF0C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0827C29353EC200ABF0C5 /* SceneDelegate.swift */; };
 		8DC0828429353EC400ABF0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC0828329353EC400ABF0C5 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		530C087329A745630066CA98 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 		530C087529A74C320066CA98 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		530C087729A74E0C0066CA98 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		530C087C29AA0D960066CA98 /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
+		530C087E29AA0EF10066CA98 /* Locale+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
 		8DC0827729353EC200ABF0C5 /* StoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC0827A29353EC200ABF0C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DC0827C29353EC200ABF0C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		530C087929AA0D360066CA98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				530C087C29AA0D960066CA98 /* ProductCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8DC0826E29353EC200ABF0C5 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +74,7 @@
 		8DC0827929353EC200ABF0C5 /* StoreApp */ = {
 			isa = PBXGroup;
 			children = (
+				530C087929AA0D360066CA98 /* Views */,
 				8DC082972935446C00ABF0C5 /* Extensions */,
 				8DC082942935437700ABF0C5 /* Models */,
 				8DC082912935431E00ABF0C5 /* Clients */,
@@ -104,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				530C087329A745630066CA98 /* URL+Extensions.swift */,
+				530C087E29AA0EF10066CA98 /* Locale+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -178,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				530C086F29A7443C0066CA98 /* StoreHTTPClient.swift in Sources */,
+				530C087D29AA0D960066CA98 /* ProductCellView.swift in Sources */,
 				530C087429A745630066CA98 /* URL+Extensions.swift in Sources */,
 				530C087129A7446D0066CA98 /* Category.swift in Sources */,
 				8DC0827B29353EC200ABF0C5 /* AppDelegate.swift in Sources */,
@@ -185,6 +200,7 @@
 				530C087829A74E0C0066CA98 /* ProductsTableViewController.swift in Sources */,
 				8DC0829029353F1800ABF0C5 /* CategoriesTableViewController.swift in Sources */,
 				530C087629A74C320066CA98 /* Product.swift in Sources */,
+				530C087F29AA0EF10066CA98 /* Locale+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
