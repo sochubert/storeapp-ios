@@ -20,10 +20,22 @@ class ProductsTableViewController: UITableViewController {
         super.init(nibName: nil, bundle: nil)
     }
     
+    lazy var addProductBarItemButton: UIBarButtonItem = {
+        let barButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addProductButtonPressed))
+        return barButtonItem
+    }()
+    
+    @objc private func addProductButtonPressed(_ sender: UIBarButtonItem) {
+        let addProductVC = AddProductViewController()
+        let navigationController = UINavigationController(rootViewController: addProductVC)
+        present(navigationController, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = category.name
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "ProductTableViewCell")
+        navigationItem.rightBarButtonItem = addProductBarItemButton
         
         Task {
             await populateProducts()

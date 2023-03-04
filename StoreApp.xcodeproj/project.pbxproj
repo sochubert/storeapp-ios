@@ -14,6 +14,8 @@
 		530C087829A74E0C0066CA98 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C087729A74E0C0066CA98 /* ProductsTableViewController.swift */; };
 		530C087D29AA0D960066CA98 /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C087C29AA0D960066CA98 /* ProductCellView.swift */; };
 		530C087F29AA0EF10066CA98 /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C087E29AA0EF10066CA98 /* Locale+Extensions.swift */; };
+		530C088129AA10E00066CA98 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C088029AA10E00066CA98 /* AddProductViewController.swift */; };
+		532FF0A829B334E80057EF8F /* CategoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532FF0A729B334E70057EF8F /* CategoryPickerView.swift */; };
 		8DC0827B29353EC200ABF0C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0827A29353EC200ABF0C5 /* AppDelegate.swift */; };
 		8DC0827D29353EC200ABF0C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0827C29353EC200ABF0C5 /* SceneDelegate.swift */; };
 		8DC0828429353EC400ABF0C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC0828329353EC400ABF0C5 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 		530C087729A74E0C0066CA98 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		530C087C29AA0D960066CA98 /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
 		530C087E29AA0EF10066CA98 /* Locale+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
+		530C088029AA10E00066CA98 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		532FF0A729B334E70057EF8F /* CategoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerView.swift; sourceTree = "<group>"; };
 		8DC0827729353EC200ABF0C5 /* StoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC0827A29353EC200ABF0C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DC0827C29353EC200ABF0C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 			children = (
 				8DC0828F29353F1800ABF0C5 /* CategoriesTableViewController.swift */,
 				530C087729A74E0C0066CA98 /* ProductsTableViewController.swift */,
+				530C088029AA10E00066CA98 /* AddProductViewController.swift */,
+				532FF0A729B334E70057EF8F /* CategoryPickerView.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -191,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530C088129AA10E00066CA98 /* AddProductViewController.swift in Sources */,
 				530C086F29A7443C0066CA98 /* StoreHTTPClient.swift in Sources */,
 				530C087D29AA0D960066CA98 /* ProductCellView.swift in Sources */,
 				530C087429A745630066CA98 /* URL+Extensions.swift in Sources */,
@@ -200,6 +207,7 @@
 				530C087829A74E0C0066CA98 /* ProductsTableViewController.swift in Sources */,
 				8DC0829029353F1800ABF0C5 /* CategoriesTableViewController.swift in Sources */,
 				530C087629A74C320066CA98 /* Product.swift in Sources */,
+				532FF0A829B334E80057EF8F /* CategoryPickerView.swift in Sources */,
 				530C087F29AA0EF10066CA98 /* Locale+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
